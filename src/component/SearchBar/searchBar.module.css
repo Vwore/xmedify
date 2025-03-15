@@ -1,0 +1,43 @@
+.searchBar {
+  border-radius: 15px;
+  position: relative;
+  top: -220px;
+  padding: 20px;
+  padding-top: 60px;
+  background-color: white;
+  margin-left: 120px;
+  margin-right: 120px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 6px 6px 35px 0px #1028511c;
+}
+
+.text {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 2%;
+  color: #102851;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+}
+
+.cardDisplay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:90px;
+    margin-top: 20px;
+    padding-bottom: 40px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #FAFBFE;
+    border-radius: 8px;
+    padding: 10px;
+
+}

@@ -1,0 +1,27 @@
+.input {
+  border: 1px solid #f0f0f0;
+  background-color: #fafbfe;
+  border-radius: 8px;
+  padding: 5px;
+  width: 250px;
+
+}
+
+.search {
+  display: flex;
+  justify-content: flex-end;
+  gap: 60px;
+}
+
+.searchBtn {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 2%;
+    border-radius: 8px;
+    background-color: #2aa8ff;
+    color: white;
+    padding: 15px;
+    border: none;
+  }
