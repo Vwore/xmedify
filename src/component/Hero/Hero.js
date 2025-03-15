@@ -21,7 +21,7 @@ export default function Hero() {
           <button className={styles.findBtn}>Find Centers</button>
         </div>
         <div>
-          {/* <img className={styles.doctor} src={Doctor} alt="doctor" /> */}
+          <img className={styles.doctor} src={Doctor} alt="doctor" />
         </div>
       </div>
     
