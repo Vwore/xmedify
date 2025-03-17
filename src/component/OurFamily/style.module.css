@@ -1,0 +1,115 @@
+.Family {
+  display: flex;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  align-items: center;
+  position: relative;
+  height: 65vh;
+}
+
+.right {
+  width: 100%;
+  /* position: relative; */
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 20px;
+}
+
+.text1 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 18px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #2aa7ff;
+}
+.text2 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: Our Families;
+}
+
+.text3 {
+  font-family: Inter;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 240%;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #77829d;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  /* height: 25vh; */
+  width: 22vh;
+  padding: 15px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0px 15px 45px -5px #00000012;
+}
+
+.cardNum {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 34px;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #1b3c74;
+}
+
+.cardTitle {
+  font-family: Poppins;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #77829d;
+}
+
+.cardImg{
+    width: 10vh;
+    height: 10vh;
+}
+
+.card1{
+    position: absolute;
+    top: 60px;
+    left: 60vw;
+}
+.card2{
+    position: absolute;
+    top: 110px;
+    left: 77vw;
+}
+.card3{
+    position: absolute;
+    top: 300px;
+    left: 60vw;
+}
+.card4{
+    position: absolute;
+    top: 350px;
+    left: 77vw;
+}

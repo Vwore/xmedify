@@ -1,0 +1,107 @@
+.faq {
+  background-color: #ffffff;
+  padding-left: 130px;
+  padding-right: 130px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading1 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #2aa7ff;
+}
+
+.heading2 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 67px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #1b3c74;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #1b3c74;
+}
+
+.container {
+  margin-top: 60px;
+  display: flex;
+  gap: 100px;
+}
+
+.containerRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+}
+
+.image {
+  border: 10px solid #ffffff;
+  box-shadow: 0px 15px 55px -10px #00000017;
+}
+
+.containerLeft {
+  position: relative;
+}
+
+.happyCard {
+  position: absolute;
+  left: -100px;
+  top: 200px;
+  display: flex;
+  gap: 10px;
+  padding: 20px;
+  box-shadow: 0px 15px 35px -5px #00000012;
+  border-radius: 8px;
+  background-color: white;
+}
+
+.cardtext1 {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 33.6px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #1b3c74;
+}
+
+.cardtext2 {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  text-align: center;
+  vertical-align: middle;
+  color: #77829d;
+}
+
+.cardContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
