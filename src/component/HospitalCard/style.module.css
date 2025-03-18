@@ -1,0 +1,74 @@
+.card {
+  display: flex;
+  padding: 20px;
+  gap: 20px;
+  width: 100%;
+  justify-content: space-between;
+  border-radius: 15px;
+  padding: 30px;
+  background-color: white;
+}
+
+.detail {
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+  gap: 10px;
+}
+
+.booking {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 10px;
+}
+
+.name {
+  font-family: Poppins;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 28px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #14bef0;
+}
+
+.address {
+  font-family: Poppins;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+}
+
+.type {
+  font-family: Poppins;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19.6px;
+  letter-spacing: 0%;
+  vertical-align: middle;
+  color: #414146;
+  margin-top: -10px;
+}
+
+.icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.like {
+  border-top: 1px solid #e8e8f0;
+}
+
+.bookingBtn{
+    background-color: #2AA7FF;
+    border: 1px solid #14BEF0;
+    border-radius: 4px;
+    padding: 15px;
+    color: white;
+
+}
