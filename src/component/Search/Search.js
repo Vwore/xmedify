@@ -42,9 +42,8 @@ export default function Search() {
 
   return (
     <div className={styles.search}>
-      <div>
+      <div id="state">
         <select
-          id="state"
           name="state"
           className={styles.input}
           placeholder="Select State"
@@ -52,6 +51,7 @@ export default function Search() {
           onChange={(e) => {
             setState(e.target.value);
           }}
+          style={{ height: "100%" }}
         >
           <option value={""} disabled>
             Select State
