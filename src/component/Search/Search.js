@@ -55,7 +55,9 @@ export default function Search() {
             Select State
           </option>
           {states?.map((value) => (
-            <option value={value}>{value}</option>
+            <option value={value}>
+              <li>{value}</li>
+            </option>
           ))}
         </select>
       </div>
@@ -70,7 +72,9 @@ export default function Search() {
           >
             <option value={""}>Select City</option>
             {cities?.map((value) => (
-              <option value={value}>{value}</option>
+              <option value={value}>
+                <li>{value}</li>
+              </option>
             ))}
           </select>
         ) : (
@@ -79,7 +83,7 @@ export default function Search() {
           </select>
         )}
       </div>
-      <Link to='/search'>
+      <Link to="/search">
         <button type="submit" className={styles.searchBtn}>
           Search
         </button>
