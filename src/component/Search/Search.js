@@ -3,6 +3,7 @@ import styles from "./search.module.css";
 import axios from "axios";
 import { RegionDetail } from "../ContextProvider";
 import { Link } from "react-router-dom";
+import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
 
 export default function Search() {
   const [states, setStates] = useState([]);
@@ -42,7 +43,7 @@ export default function Search() {
 
   return (
     <div className={styles.search}>
-      <div id="state">
+      {/* <div id="state">
         <select
           name="state"
           className={styles.input}
@@ -62,7 +63,23 @@ export default function Search() {
             </option>
           ))}
         </select>
-      </div>
+      </div> */}
+      <FormControl style={{ width: "200px" }}>
+        <InputLabel id="demo-simple-select-label">Select State</InputLabel>
+        <Select
+          labelId="demo-simple-select-label"
+          id="state"
+          value={state}
+          label="State"
+          onChange={(e) => {
+            setState(e.target.value);
+          }}
+        >
+          {states?.map((value) => (
+            <MenuItem value={value}>{value}</MenuItem>
+          ))}
+        </Select>
+      </FormControl>
       <div id="city">
         {state ? (
           <select
