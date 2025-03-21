@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 
 export default function Search() {
   const [states, setStates] = useState([]);
+  const [showState, setShowState] = useState(false);
   const [cities, setCities] = useState([]);
   const { state, setState, city, setCity } = useContext(RegionDetail);
   const fetchState = async () => {
@@ -41,8 +42,9 @@ export default function Search() {
 
   return (
     <div className={styles.search}>
-      <div id="state">
+      <div>
         <select
+          id="state"
           name="state"
           className={styles.input}
           placeholder="Select State"
