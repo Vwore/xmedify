@@ -17,7 +17,7 @@ export default function HospitalCard({ detail, isBooked = false }) {
             <img src={icon} alt="hospital" />
           </div>
           <div className={style.detail}>
-            <div className={style.name}>{detail["Hospital Name"]}</div>
+            <h3 className={style.name}>{detail["Hospital Name"]}</h3>
             <div className={style.address}>
               {detail.City}, {detail.State}
             </div>
