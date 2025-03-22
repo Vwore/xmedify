@@ -29,9 +29,9 @@ export default function HospitalCard({ detail, isBooked = false }) {
           </div>
           {isBooked ? (
             <div className={style.bookingDetail}>
-              <div className={style.bookingTime}>{detail.time}</div>
+              <div className={style.bookingTime}>{detail.bookingTime}</div>
               <div className={style.bookingDate}>
-                {format(detail.date, "dd/MM/yy")}
+                {format(detail.bookingDate, "dd/MM/yy")}
               </div>
             </div>
           ) : (

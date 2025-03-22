@@ -65,7 +65,7 @@ export default function BookingPanel({ detail }) {
       localStorage.setItem("bookings", JSON.stringify([]));
     }
     const booking = JSON.parse(localStorage.getItem("bookings"));
-    booking.push({ ...detail, time: time, date });
+    booking.push({ ...detail, bookingTime: time, bookingDate:date });
     console.log(booking);
     localStorage.setItem("bookings", JSON.stringify(booking));
     setShowModal(false);
