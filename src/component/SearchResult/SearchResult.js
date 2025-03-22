@@ -30,7 +30,7 @@ export default function SearchResult() {
       <Header />
       <div className={style.searchResult}>
         <h1>
-          {hospitals?.length} medical centers available in {state}
+          {hospitals?.length} medical centers available in {city}
         </h1>
         <h4>
           Book appointments with minimum wait-time & verified doctor details

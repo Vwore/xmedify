@@ -15,6 +15,7 @@ export default function Booking() {
     <div>
       <Header />
       <div style={{ width: "60%", padding: "130px", paddingTop: "60px" }}>
+        <h1>My Bookings</h1>
         {bookings?.map((value) => (
           <HospitalCard detail={value} isBooked={true} />
         ))}
