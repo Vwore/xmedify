@@ -43,27 +43,7 @@ export default function Search() {
 
   return (
     <div className={styles.search}>
-      {/* <div id="state">
-        <select
-          name="state"
-          className={styles.input}
-          placeholder="Select State"
-          value={state}
-          onChange={(e) => {
-            setState(e.target.value);
-          }}
-          style={{ height: "100%" }}
-        >
-          <option value={""} disabled>
-            Select State
-          </option>
-          {states?.map((value) => (
-            <option value={value}>
-              <li>{value}</li>
-            </option>
-          ))}
-        </select>
-      </div> */}
+      
       <FormControl style={{ width: "200px" }}>
         <InputLabel id="demo-simple-select-label">Select State</InputLabel>
         <Select
@@ -96,28 +76,7 @@ export default function Search() {
           ))}
         </Select>
       </FormControl>
-      {/* <div id="city">
-        {state ? (
-          <select
-            className={styles.input}
-            value={city}
-            onChange={(e) => {
-              setCity(e.target.value);
-            }}
-          >
-            <option value={""}>Select City</option>
-            {cities?.map((value) => (
-              <option value={value}>
-                <li>{value}</li>
-              </option>
-            ))}
-          </select>
-        ) : (
-          <select className={styles.input} disabled>
-            <option>Select City</option>
-          </select>
-        )}
-      </div> */}
+      
       <Link to="/search">
         <button type="submit" className={styles.searchBtn}>
           Search
