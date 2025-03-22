@@ -80,7 +80,23 @@ export default function Search() {
           ))}
         </Select>
       </FormControl>
-      <div id="city">
+      <FormControl style={{ width: "200px" }}>
+        <InputLabel id="select-city">Select City</InputLabel>
+        <Select
+          labelId="select-city"
+          id="city"
+          value={city}
+          label="City"
+          onChange={(e) => {
+            setCity(e.target.value);
+          }}
+        >
+          {cities?.map((value) => (
+            <MenuItem value={value}>{value}</MenuItem>
+          ))}
+        </Select>
+      </FormControl>
+      {/* <div id="city">
         {state ? (
           <select
             className={styles.input}
@@ -101,7 +117,7 @@ export default function Search() {
             <option>Select City</option>
           </select>
         )}
-      </div>
+      </div> */}
       <Link to="/search">
         <button type="submit" className={styles.searchBtn}>
           Search
