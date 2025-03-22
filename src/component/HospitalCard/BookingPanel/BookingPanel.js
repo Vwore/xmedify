@@ -97,10 +97,10 @@ export default function BookingPanel({ detail }) {
             <Tab
               label={
                 <div style={{ margin: 10 }}>
-                  <div style={{ color: "black", fontWeight: 600, padding: 10 }}>
+                  <p style={{ color: "black", fontWeight: 600, padding: 10 }}>
                     {" "}
                     {val}
-                  </div>
+                  </p>
                   <div style={{ color: "green", fontSize: 12 }}>
                     15 slots Available
                   </div>
@@ -111,7 +111,7 @@ export default function BookingPanel({ detail }) {
         </Tabs>
         <div className={style.timeContainer}>
           <div className={style.timePeriod}>
-            <div className={style.timePeriodText}>Morning</div>
+            <p className={style.timePeriodText}>Morning</p>
             <div className={style.timePeriodTime}>
               <TimePill
                 time={"11:00 AM"}
@@ -121,7 +121,7 @@ export default function BookingPanel({ detail }) {
             </div>
           </div>
           <div className={style.timePeriod}>
-            <div className={style.timePeriodText}>Afternoon</div>
+            <p className={style.timePeriodText}>Afternoon</p>
             <div className={style.timePeriodTime}>
               <TimePill
                 time={"12:00 PM"}
@@ -151,7 +151,7 @@ export default function BookingPanel({ detail }) {
             </div>
           </div>
           <div className={style.timePeriod}>
-            <div className={style.timePeriodText}> Evening</div>
+            <p className={style.timePeriodText}> Evening</p>
             <div className={style.timePeriodTime}>
               <TimePill
                 time={"06:00 PM"}
